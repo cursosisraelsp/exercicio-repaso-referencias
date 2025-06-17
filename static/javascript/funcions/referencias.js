@@ -1,22 +1,26 @@
-let refParrafo1 = document.querySelector("#parrafo1");
-let refBoton = document.querySelector("#boton");
 let refDiv1 = document.querySelector(".div1");
+let refParrafo1 = refDiv1.parentElement.children[0]
+let refParrafo2 = refDiv1.previousElementSibling
 let refLista = document.querySelector(".lista");
-let refTabla = document.querySelector("table"); 
-let refTablaTr = document.querySelector("tr");
-let refTablaTrTodos = document.querySelectorAll("tr");
-let refTablaTh = refTablaTrTodos[0].querySelectorAll("th");
-let refBody1 = document.querySelector("body");
-let refBody2 = document.body;
+let ref1ParrafoDendeLista = refLista.parentElement.children[0];
+let ref2ParrafoDendeLista = refLista.previousElementSibling.previousElementSibling;
+let refTablaDendeLista = refLista.nextElementSibling
+let refTabla = document.querySelector("table");
+let refTd1sTabla = refTabla.children[0].children[1].children
+let refDiv1DendeTabla = refTabla.previousElementSibling.previousElementSibling
+let refDiv2DendeTabla = refTabla.parentElement.children[1]
+let refTabla1DendeDiv = refDiv1.parentElement.children[3]
+let refTabla2DendeDiv = refDiv1.nextElementSibling.nextElementSibling
 export {
     refParrafo1,
-    refDiv1,
+    refParrafo2,
     refLista,
-    refBoton,
-    refTabla,
-    refTablaTr,
-    refTablaTrTodos,
-    refTablaTh,
-    refBody1,
-    refBody2
+    ref1ParrafoDendeLista,
+    ref2ParrafoDendeLista,
+    refTablaDendeLista,
+    refTd1sTabla,
+    refDiv1DendeTabla,
+    refDiv2DendeTabla,
+    refTabla1DendeDiv,
+    refTabla2DendeDiv
 }
