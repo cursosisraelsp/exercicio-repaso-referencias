@@ -27,10 +27,25 @@ span{
 }
 img{
     width: 15px;
-    background-color: antiquewhite;
     border: 1px solid;
     border-radius: 3px;
 }
-img:hover{
+img[name="eliminar"]{
+    background-color: antiquewhite;
+}
+img[name="guardar"]{
+    background-color: rgb(207, 234, 123);
+}
+img[name="eliminar"]:hover{
     background-color: red;
+}
+img[name="guardar"]:hover{
+    background-color: rgb(21, 255, 0);
+}
+
+img[name="editar"]{
+    background-color: rgb(97, 242, 182);
+}
+img[name="editar"]:hover{
+    background-color: rgb(36, 156, 193);
 }
