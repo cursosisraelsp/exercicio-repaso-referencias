@@ -49,6 +49,7 @@ refLista2.addEventListener("click",(event)=>{
         // TEÑO QUE SITUARME DENDE O ELEMENTO CLICADO QUE NESTE CASO É img
         // ACCEDO O PAI mediante parentElement
         // UTILIZO remove() PARA BORRAR
-        event.target.parentElement.remove()
+        //event.target.parentElement.remove()
+        console.log("clico a imaxen")
     }
 })
