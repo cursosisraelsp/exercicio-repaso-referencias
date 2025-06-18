@@ -20,6 +20,21 @@
 
 > Temos que ter en conta que realizamos un evento. Cando se clica na lista ou nun elemento interno `li`, procederase á eliminación do `pai`.
 
+```html
+    <ul class="lista2">
+        <li>
+          Item 1
+          <span>texto dentro do span 1</span>
+          <img name="eliminar" src="./imaxes/eliminar-50.png"/>
+        </li>
+        <li>Item 2<span>texto dentro do span 2</span><img name="eliminar" src="./imaxes/eliminar-50.png"/></li>
+        <li>Item 3<span>texto dentro do span 3</span><img name="eliminar" src="./imaxes/eliminar-50.png"/></li>
+        <li>Item <span>texto dentro do span 4</span><img name="eliminar" src="./imaxes/eliminar-50.png"/></li>
+        <li>Item 5<span>texto dentro do span 5</span><img name="eliminar" src="./imaxes/eliminar-50.png"/></li>
+        <li>Item 6<span>texto dentro do span 6</span><img name="eliminar" src="./imaxes/eliminar-50.png"/></li>
+    </ul>s
+```
+
 
    
 
