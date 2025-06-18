@@ -38,7 +38,7 @@ Lembra de referenciar a lista (‘ul’)
 correctamente.
 Emprega o evento “click”.
  */
-
+// CAMBIAMOS EVENTO PARA EDITAR, BORRAR E MODIFICAR
 refLista2.addEventListener("click",(event)=>{
     //console.log("event",event)// NO MOMENTO QUE CLIQUE TRAE MOITA INFORMACIÓN DO ELEMENTO CLICADO
     console.log("event.target",event.target)// ELEMENTO ONDE CLICAS, SACA A ETIQUETA CLICADA
